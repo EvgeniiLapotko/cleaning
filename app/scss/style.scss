@@ -7,21 +7,15 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 700px;
+    position: relative;
+    margin-bottom: 60px;
 }
+
 .header-top {
     background-color: rgba(#000, 0.3);
     height: 100px;
-    position: relative;
-}
-
-.header__top-line {
-    background-color: $blue;
-    position: absolute;
-    width: 25%;
-    height: 100px;
-    right: 0;
-    top: 0;
+    z-index: 2;
 }
 
 .header__inner {
@@ -29,6 +23,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    z-index: 3;
 }
 
 .header__item-logo {
@@ -44,15 +39,15 @@
     }
 }
 
-.icon-map-marker:before {
-    content: "\f041";
-    position: absolute;
-    font-family: "icomoon" !important;
-    color: #fff;
-    left: 0;
-    right: 0;
-    font-size: 26px;
-}
+// .icon-map-marker:before {
+//     content: "\f041";
+//     position: absolute;
+//     font-family: "icomoon" !important;
+//     color: #fff;
+//     left: 0;
+//     right: 0;
+//     font-size: 26px;
+// }
 
 .header__item {
     &-time {
@@ -61,11 +56,23 @@
         width: 100%;
         line-height: 24px;
         padding-left: 40px;
+        position: relative;
         span {
             color: #029cdb;
             display: block;
             text-transform: uppercase;
             font-weight: 700;
+        }
+        &::before {
+            content: "\f017";
+            position: absolute;
+            font-family: "icomoon";
+            color: #fff;
+            left: -5px;
+            top: 50%;
+            font-size: 35px;
+            transform: translateY(-50%);
+            display: inline-block;
         }
     }
     &-map {
@@ -76,20 +83,24 @@
         color: #029cdb;
         padding-left: 40px;
         position: relative;
+        // font-family: "Roboto", sans-serif !important;
+        cursor: pointer;
         span {
             display: block;
             text-transform: capitalize;
             font-weight: 400;
             color: #fff;
         }
-        // &:before {
-        //     content: "\f041";
-        //     position: absolute;
-        //     font-family: "icomoon" !important;
-        //     color: #fff;
-        //     left: 0;
-        //     right: 0;
-        // }
+        &::before {
+            position: absolute;
+            font-family: "icomoon";
+            color: #fff;
+            left: 0;
+            top: 50%;
+            font-size: 35px;
+            transform: translateY(-50%);
+            display: inline-block;
+        }
     }
     &-box {
         background-color: $blue;
@@ -108,10 +119,22 @@
         text-transform: uppercase;
         color: #fff;
         font-weight: 700;
+        padding-left: 25px;
         span {
             display: block;
             font-weight: 400;
             border-bottom: 1px solid #fff;
+        }
+        &::before {
+            content: "\f095";
+            position: absolute;
+            font-family: "icomoon";
+            color: #fff;
+            left: 20px;
+            top: 50%;
+            font-size: 35px;
+            transform: translateY(-50%);
+            display: inline-block;
         }
     }
 }
@@ -155,7 +178,7 @@
     max-width: 580px;
     margin: 0 auto;
     text-transform: uppercase;
-    margin-top: 45px;
+    margin-top: 90px;
     margin-bottom: 8px;
 }
 
@@ -167,4 +190,51 @@
     margin: 0 auto;
     padding-right: 20px;
     margin-bottom: 50px;
+}
+
+.best__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 250px;
+    background-color: $bg-grey;
+    padding: 20px;
+    padding-top: 70px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+}
+
+.best__item {
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    background-color: $bg-grey;
+    &-title {
+        color: $blue;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 20px;
+        position: relative;
+        &::before {
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            font-size: 32px;
+            transform: translateX(-50%);
+            font-family: "icomoon";
+        }
+    }
+}
+
+.icon-thumbs-o-up:before {
+    content: "\f087";
+}
+
+.icon-globe:before {
+    content: "\f0ac";
+}
+
+.icon-group:before {
+    content: "\f0c0";
 }
