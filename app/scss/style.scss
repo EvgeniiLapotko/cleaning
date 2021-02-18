@@ -295,12 +295,6 @@
     content: "\f0c0";
 }
 
-.best__item:hover {
-    .icon-thumbs-o-up:before {
-        color: green;
-    }
-}
-
 .service {
     margin-bottom: 60px;
     position: relative;
@@ -343,7 +337,7 @@
     flex-basis: calc(50% - 20px);
     border-radius: 20px;
     padding: 15px;
-    height: 245px;
+    min-height: 245px;
     margin-bottom: 20px;
     background-position-x: 0;
     background-position-y: -80px;
@@ -441,7 +435,7 @@
 }
 
 .twentytwenty-container {
-    height: 550px !important;
+    max-height: 550px !important;
 }
 
 .twentytwenty-overlay:hover {
@@ -503,9 +497,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 550px;
+    min-height: 550px;
     margin-bottom: 60px;
     position: relative;
+    padding-bottom: 30px;
     &::before {
         content: "";
         position: absolute;
@@ -584,7 +579,8 @@
 .contact__item-prim {
     font-size: 14px;
     color: #fff;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .contact__item--contact {
@@ -650,12 +646,12 @@
 
 .how__list-item {
     position: relative;
-    padding-left: 60px;
+    padding-left: 80px;
     padding-bottom: 30px;
 
     &:before {
         top: 49px;
-        left: -34px;
+        left: 0;
         position: absolute;
         font-size: 30px;
         padding: 22px 24px;
@@ -693,7 +689,7 @@
 .how__list-item-5 {
     &:before {
         content: "5";
-        left: -30px;
+        left: 0;
     }
 }
 
@@ -860,7 +856,8 @@
     min-height: 250px;
     border-radius: 30px;
     background-color: rgba(#dfdfdf, 0.8);
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     display: none;
     h3 {
         text-transform: uppercase;
@@ -944,12 +941,13 @@
     font-size: 22px;
     text-align: center;
     margin-bottom: 20px;
+    padding-left: 20px;
     position: relative;
     &:before {
         content: "\f095";
         position: absolute;
         font-family: "icomoon";
-        left: 20px;
+        left: 0;
         top: 0;
         font-size: 28px;
     }
@@ -966,3 +964,5 @@
     font-size: 18px;
     text-align: center;
 }
+
+@import "media";

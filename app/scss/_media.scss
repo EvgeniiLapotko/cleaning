@@ -1,0 +1,327 @@
+@media (max-width: 1000px) {
+    .header__item--time {
+        display: none;
+    }
+    .best__item {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .service__item-from {
+        padding-left: 0;
+    }
+    .service__item-srok {
+        padding-left: 0;
+    }
+    .service__item-btn {
+        max-width: 134px;
+    }
+}
+
+@media (max-width: 940px) {
+    .sale__card {
+        display: block;
+    }
+    .instr__inner {
+        flex-wrap: wrap;
+    }
+    .instr__item {
+        margin: 0 10px;
+        margin-bottom: 30px;
+    }
+
+    .tabs {
+        max-width: 100%;
+        margin-right: 0;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        span {
+            margin-left: 15px;
+            margin-bottom: 10px;
+            border: 1px solid $blue;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    }
+    .tabs span + span {
+        margin-top: 0;
+    }
+
+    .wrapper-tabs {
+        flex-direction: column;
+        align-items: center;
+        background-position-x: center;
+        background-position-y: 50px;
+        height: auto;
+    }
+    .tab_content {
+    }
+    .tab.active {
+        color: #fff;
+        background-color: $blue;
+    }
+}
+@media (max-width: 850px) {
+    .service__item-from span {
+        padding-left: 23px;
+    }
+    .service__item-srok span {
+        padding-left: 0;
+    }
+    .service__item-btn {
+        padding: 6px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header__item-box {
+        max-width: 300px;
+    }
+    .header__item-call {
+        padding-left: 40px;
+    }
+    .header__item-logo {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        img {
+            display: block;
+            margin-bottom: 10px;
+        }
+        span {
+            display: block;
+        }
+    }
+    .service__inner {
+        display: block;
+    }
+    .service__item-from {
+        padding-left: 30px;
+    }
+    .service__item-srok {
+        padding-left: 30px;
+    }
+
+    .contact__inner {
+        display: block;
+    }
+
+    .contact__item {
+        margin: 0 auto;
+    }
+
+    .contact__item--contact {
+        margin-top: 20px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .list-mail {
+        justify-content: center;
+    }
+    .footer .header__item-time {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .best__inner {
+        flex-wrap: wrap;
+    }
+    .best__item {
+        margin-bottom: 60px;
+    }
+    .best__item:last-child {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .header__item-map {
+        display: none;
+    }
+    .header__item-box {
+        max-width: 270px;
+    }
+    .header__item-call:before {
+        display: none;
+    }
+    .header__item-logo img {
+        width: 70px;
+    }
+    .header__item-logo span {
+        padding-left: 0;
+        font-size: 18px;
+    }
+    .header__title {
+        font-size: 32px;
+    }
+    .header__text {
+        font-size: 20px;
+    }
+    .title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .work__status {
+        font-size: 18px;
+    }
+    .video__inner {
+        display: block;
+    }
+    .video__item {
+        margin-bottom: 45px;
+    }
+    .help-form .contact__item--contact {
+        padding: 0;
+    }
+    .help-form input {
+        width: 180px;
+    }
+    .form__call-btn {
+        width: 180px;
+    }
+    .contact__item {
+        max-width: 600px;
+    }
+    .footer__inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer__item {
+        margin-bottom: 20px;
+    }
+    .footer__item:last-child {
+        width: 100%;
+    }
+    .footer__item-call {
+        max-width: 220px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .footer__btn {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        display: block;
+    }
+}
+@media (max-width: 450px) {
+    .service__item-from {
+        padding-left: 0;
+    }
+    .service__item-srok {
+        padding-left: 0;
+    }
+    .service__item-from span {
+        padding-left: 0;
+        display: block;
+        color: $blue;
+    }
+    .service__item-srok span {
+        padding-left: 0;
+        display: block;
+        color: $blue;
+    }
+    .service__item-price {
+        padding-left: 40px;
+    }
+    .subtitle-text {
+        font-size: 18px;
+    }
+    .work__status {
+        font-size: 14px;
+    }
+    .form__call-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input {
+            width: 100%;
+        }
+    }
+
+    .form__call-mail {
+        margin-bottom: 25px !important;
+    }
+
+    .form__call-btn {
+        padding: 15px;
+    }
+    .sale__card-wrapper {
+        padding-left: 36px;
+    }
+    .sale__title {
+        position: absolute;
+        font-size: 30px;
+        top: 135px;
+        left: -118px;
+    }
+    .wrapper-tabs {
+        background-size: contain;
+        background-position-y: 200px;
+    }
+    .help-form .contact__item-text {
+        padding-right: 15px;
+        padding-left: 25px;
+    }
+    .help-form .contact__item-text {
+        margin-left: 0;
+    }
+    .help-form .contact__inner {
+        padding: 12px;
+    }
+
+    .help-form .contact__item-text {
+        border-radius: 25px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header__item-call {
+        padding-left: 10px;
+    }
+    .header__item-call {
+        font-size: 14px;
+    }
+    .header__title {
+        font-size: 26px;
+    }
+
+    .header__text {
+        font-size: 18px;
+    }
+    .header__item-logo span {
+        padding-left: 0;
+        font-size: 14px;
+    }
+    .service__item-price {
+        padding-left: 15px;
+    }
+    .work__status {
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+
+    .video__item {
+        height: 200px;
+    }
+    .sale__item-title {
+        font-size: 18px;
+    }
+    .wrapper-tabs {
+        background-size: contain;
+        background-position-y: 270px;
+    }
+    .help-form .contact__item-text {
+        font-size: 14px;
+    }
+    .footer__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+}

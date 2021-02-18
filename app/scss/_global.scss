@@ -36,7 +36,8 @@ li {
 }
 
 .btn-global {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     color: #fff;
     background-color: $red;
     border-radius: 40px;
