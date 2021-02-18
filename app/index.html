@@ -15,7 +15,7 @@
 
 <body>
 
-    <header class="header">
+    <header id="main" class="header">
         <div class="header__top-line"></div>
         <div class="header-top">
             <div class="container">
@@ -52,7 +52,20 @@
                                 <span></span>
                             </div>
                         </div>
+                        <nav class="menu active">
+                            <ul class="menu__list">
+                                <li><a href="#main" class="minu__list-link">Главная</a></li>
+                                <li><a href="#price" class="minu__list-link">Услуги и цены</a></li>
+                                <li><a href="#work" class="minu__list-link">Наши работы</a></li>
+                                <li><a href="#video" class="minu__list-link">Видео</a></li>
+                                <li><a href="#him" class="minu__list-link">Этапы химчистки</a></li>
+                                <li><a href="#contact" class="minu__list-link">Акции и скидки</a></li>
+                                <li><a href="#instr" class="minu__list-link">Наше оборудование</a></li>
+                                <li><a href="#faq" class="minu__list-link">Вопросы</a></li>
+                            </ul>
+                        </nav>
                     </div>
+
                 </div>
             </div>
 
@@ -120,11 +133,11 @@
     </section>
 
 
-    <section class="service">
+    <section id='price' class="service">
         <div class="service-bg"></div>
         <div class="container">
             <div class="title">
-                НАши услуги
+                Наши услуги
             </div>
             <div class="subtitle-text">
                 Компания CleanHouse предоставляет полный спектр услуг по химчистки мебели и ковров. От ароматизации до
@@ -204,7 +217,9 @@
         </div>
     </section>
 
-    <section class="work">
+
+
+    <section id='work' class="work">
         <div class="container">
             <div class="title">
                 Мы стараемся для Вас
@@ -245,7 +260,7 @@
         </div>
     </section>
 
-    <section class="video">
+    <section id='video' class="video">
         <div class="container">
             <div class="title">
                 Видео
@@ -285,7 +300,55 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section id='him' class="how">
+        <div class="container">
+            <div class="title">
+                Как проходит химчистка?
+            </div>
+            <ul class="how__list">
+
+                <li class="how__list-item how__list-item-1">
+                    <div class="how__list-title">Подготовка</div>
+                    <div class="how__list-text">
+                        Мастер изучит материал поверхности и загрязнение, подберёт основную химию, пятновыводитель и
+                        средство для удаления
+                        запахов.
+                    </div>
+                </li>
+                <li class="how__list-item how__list-item-2">
+                    <div class="how__list-title">НАНОСИМ ХИМИЮ</div>
+                    <div class="how__list-text">
+                        С помощью экстрактора нанесём основное чистящее средство. Сложные пятна обработаем
+                        пятновыводителем, если потребуется,
+                        замочим поверхность дивана. Особенно стойкие запахи выведем средством для удаления запахов.
+                    </div>
+                </li>
+                <li class="how__list-item how__list-item-3">
+                    <div class="how__list-title">СОБИРАЕМ ХИМИЮ ВМЕСТЕ С ГРЯЗЬЮ</div>
+                    <div class="how__list-text">
+                        Специальным пылесосом Karcher или CleanFix.
+                    </div>
+                </li>
+                <li class="how__list-item how__list-item-4">
+                    <div class="how__list-title">ФИНИШНАЯ ПРОМЫВКА ОТ ХИМИИ</div>
+                    <div class="how__list-text">
+                        Остатки химии промоем чистой водой.
+                    </div>
+                </li>
+                <li class="how__list-item how__list-item-5">
+                    <div class="how__list-title">СУШИМ ПОВЕРХНОСТЬ</div>
+                    <div class="how__list-text">
+                        Вытягиваем влагу с поверхности, пока в экстрактор не перестанет поступать вода. Диван досыхает
+                        за 3-12 часов. Время
+                        высыхания зависит от материала дивана и количества воды, которое потребовалось мастеру для
+                        очистки поверхности.
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id='contact' class="contact">
         <div class="container">
             <div class="contact-bg"></div>
             <div class="title">
@@ -327,6 +390,293 @@
             </div>
         </div>
     </section>
+
+    <section class="sale">
+        <div class="container">
+            <div class="sale__card-wrapper">
+                <div class="sale__title">
+                    Акции и скидки
+                </div>
+
+                <div class="sale__card">
+                    <div class="sale__item">
+                        <div class="sale__item-title">
+                            Скидка 10% <br>
+                            на повторные заказы
+                        </div>
+                        <div class="sale__item-text">Наша компания забодится о Вас и вашей мебели</div>
+                    </div>
+                    <div class="sale__item">
+                        <div class="sale__item-title">
+                            Гибкая система
+                        </div>
+                        <div class="sale__item-text">При заказе на сумму от 5000р скидка и приятные бонусы на химчистку
+                            мебели и ковров</div>
+                    </div>
+                    <div class="sale__item">
+                        <div class="sale__item-title">
+                            Скидка 15% <br>
+
+                        </div>
+                        <div class="sale__item-text">При заказе от 4х предметов мебели скидка на все позиции</div>
+                    </div>
+                    <div class="sale__item">
+                        <div class="sale__item-title">
+                            Подарок для детей
+                        </div>
+                        <div class="sale__item-text">При заказе любой химчистки, чистка детского матраса бесплатно</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='instr' class="instr">
+        <div class="instr__bg"></div>
+        <div class="container">
+            <div class="title">
+                Только лучшее у нас
+            </div>
+            <div class="subtitle-text">
+                В своей работе мы используем только проффесианальное оборудование и чистящие средства которые безопасны
+                для беременных и детей
+            </div>
+
+            <div class="instr__inner">
+                <div class="instr__item">
+                    <div class="instr__item-img">
+                        <img src="images/5_sm.png" alt="">
+                    </div>
+                    <div class="instr__item-title">
+                        Karcher
+                    </div>
+                    <div class="instr__item-text">
+                        Популярная модель в линейки компании Karcher
+                    </div>
+                </div>
+                <div class="instr__item">
+                    <div class="instr__item-img">
+                        <img src="images/3_sm.png" alt="">
+                    </div>
+                    <div class="instr__item-title">
+                        RM 760 asf classic
+                    </div>
+                    <div class="instr__item-text">
+                        Средство для текстильных покрытий. Гиппоаллергенна и не остается на мебели
+                    </div>
+                </div>
+                <div class="instr__item">
+                    <div class="instr__item-img">
+                        <img src="images/4_sm.png" alt="">
+                    </div>
+                    <div class="instr__item-title">
+                        Chemspec
+                    </div>
+                    <div class="instr__item-text">
+                        Вся химия имеет сертификат и абсалютно безопасна
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id='faq' class="faq">
+        <div class="container">
+            <div class="title">
+                Часто задаваемые вопросы
+            </div>
+            <div class="wrapper-tabs">
+                <div class="tabs">
+                    <span class="tab active" data-id="1">Как происходит химчистка?</span>
+                    <span class="tab" data-id="2">Безопасно ли для здоровья?</span>
+                    <span class="tab" data-id="3">Что входит в стоимость?</span>
+                    <span class="tab" data-id="4">Все пятна уйдут?</span>
+                    <span class="tab" data-id="5">Выводит неприятные запахи?</span>
+                    <span class="tab" data-id="6">Работаете с Юр. лицами?</span>
+                    <span class="tab" data-id="7">Выезжаете в область?</span>
+                    <span class="tab" data-id="8">Почему химчистка кожи дороже?</span>
+                </div>
+                <div class="tab_content">
+                    <div class="tab-item active-tab" id="1">
+                        <h3>Мы делаем все возможное</h3>
+                        <p>Любая компания может дать гарантию, что отчистит 100% пятна на мебели. Только они бывают
+                            разные по нанесению и времени нахождения на мебели</p>
+                        <p>Каждый человек должен понимать, что бывают пятна, которые невозможно убрать ничем. Не моющим
+                            пылесосом не самым дорогим проффесианальным моющим средством.
+                        </p>
+                        <p>Опытные сотрудники нашей компании сделают все возможное при помощи проффесианальной химии и
+                            оборудование. Как показывает практика более 90% пятен мы полностью удалим </p>
+                    </div>
+                    <div class="tab-item " id="2">
+                        <h3>Мы делаем все возможное</h3>
+                        <p>Любая компания может дать гарантию, что отчистит 100% пятна на мебели. Только они бывают
+                            разные по нанесению и времени нахождения на мебели</p>
+                        <p>Каждый человек должен понимать, что бывают пятна, которые невозможно убрать ничем. Не моющим
+                            пылесосом не самым дорогим проффесианальным моющим средством.
+                        </p>
+                        <p>Опытные сотрудники нашей компании сделают все возможное при помощи проффесианальной химии и
+                            оборудование. Как показывает практика более 90% пятен мы полностью удалим </p>
+                    </div>
+                    <div class="tab-item " id="3">
+                        <h3>Мы делаем все возможное</h3>
+                        <p>Любая компания может дать гарантию, что отчистит 100% пятна на мебели. Только они бывают
+                            разные по нанесению и времени нахождения на мебели</p>
+                        <p>Каждый человек должен понимать, что бывают пятна, которые невозможно убрать ничем. Не моющим
+                            пылесосом не самым дорогим проффесианальным моющим средством.
+                        </p>
+                        <p>Опытные сотрудники нашей компании сделают все возможное при помощи проффесианальной химии и
+                            оборудование. Как показывает практика более 90% пятен мы полностью удалим </p>
+                    </div>
+                    <div class="tab-item " id="4">
+                        <h3>Мы делаем все возможное</h3>
+                        <p>Любая компания может дать гарантию, что отчистит 100% пятна на мебели. Только они бывают
+                            разные по нанесению и времени нахождения на мебели</p>
+                        <p>Каждый человек должен понимать, что бывают пятна, которые невозможно убрать ничем. Не моющим
+                            пылесосом не самым дорогим проффесианальным моющим средством.
+                        </p>
+                        <p>Опытные сотрудники нашей компании сделают все возможное при помощи проффесианальной химии и
+                            оборудование. Как показывает практика более 90% пятен мы полностью удалим </p>
+                    </div>
+                    <div class="tab-item " id="5">
+                        <h3>Мы делаем все возможное</h3>
+                        <p>Любая компания может дать гарантию, что отчистит 100% пятна на мебели. Только они бывают
+                            разные по нанесению и времени нахождения на мебели</p>
+                        <p>Каждый человек должен понимать, что бывают пятна, которые невозможно убрать ничем. Не моющим
+                            пылесосом не самым дорогим проффесианальным моющим средством.
+                        </p>
+                        <p>Опытные сотрудники нашей компании сделают все возможное при помощи проффесианальной химии и
+                            оборудование. Как показывает практика более 90% пятен мы полностью удалим </p>
+                    </div>
+                    <div class="tab-item " id="6">
+                        <h3>Мы делаем все возможное</h3>
+                        <p>Любая компания может дать гарантию, что отчистит 100% пятна на мебели. Только они бывают
+                            разные по нанесению и времени нахождения на мебели</p>
+                        <p>Каждый человек должен понимать, что бывают пятна, которые невозможно убрать ничем. Не моющим
+                            пылесосом не самым дорогим проффесианальным моющим средством.
+                        </p>
+                        <p>Опытные сотрудники нашей компании сделают все возможное при помощи проффесианальной химии и
+                            оборудование. Как показывает практика более 90% пятен мы полностью удалим </p>
+                    </div>
+                    <div class="tab-item " id="7">
+                        <h3>Мы делаем все возможное</h3>
+                        <p>Любая компания может дать гарантию, что отчистит 100% пятна на мебели. Только они бывают
+                            разные по нанесению и времени нахождения на мебели</p>
+                        <p>Каждый человек должен понимать, что бывают пятна, которые невозможно убрать ничем. Не моющим
+                            пылесосом не самым дорогим проффесианальным моющим средством.
+                        </p>
+                        <p>Опытные сотрудники нашей компании сделают все возможное при помощи проффесианальной химии и
+                            оборудование. Как показывает практика более 90% пятен мы полностью удалим </p>
+                    </div>
+                    <div class="tab-item " id="8">
+                        <h3>Мы делаем все возможное</h3>
+                        <p>Любая компания может дать гарантию, что отчистит 100% пятна на мебели. Только они бывают
+                            разные по нанесению и времени нахождения на мебели</p>
+                        <p>Каждый человек должен понимать, что бывают пятна, которые невозможно убрать ничем. Не моющим
+                            пылесосом не самым дорогим проффесианальным моющим средством.
+                        </p>
+                        <p>Опытные сотрудники нашей компании сделают все возможное при помощи проффесианальной химии и
+                            оборудование. Как показывает практика более 90% пятен мы полностью удалим </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="help-form">
+        <div class="container">
+            <div class="title">
+                Всегда рады помочь
+            </div>
+            <div class="contact__inner">
+                <div class="contact__item">
+                    <div class="contact__item-text">
+                        Усли у Вас остались вопросы или вы хотите заказать химчистку на дом, мы с радостью ответим Вам.
+                        ЗАкажите звонок пряммо сейчас. НАш оперетор свяжется с Вами в ближайшее время
+                    </div>
+                    <form action="" class="form__call">
+                        <div class="form__call-row">
+                            <input type="text" placeholder="Введите Имя" required><input type="tel"
+                                placeholder="Введите телефон" required>
+                        </div>
+                        <div class="form__call-row">
+                            <input class="form__call-mail" type="email" placeholder="e-mail">
+                            <button class="form__call-btn btn-global" type="submit">ЗАказать звонок</button>
+                        </div>
+                    </form>
+                    <div class="contact__item-private">
+                        Ваши данные не будут переданы 3м лицам
+                    </div>
+                    <div class="contact__item-prim">
+                        При ображении в месседжеры для быстрой оценки приложите фото
+                    </div>
+                </div>
+                <div class="contact__item contact__item--contact">
+                    <div class="contact__item-mail">
+                        Так же вы можете связаться с нами ч/з меседжеры. Присылайте фото загрязнений специалист
+                        посмотрит объем работы и скажет стоимость и время выполнения работы.
+                    </div>
+                    <ul class="list-mail">
+                        <li><a class="list-mail icon-vk" href="#"></a></li>
+                        <li><a class="list-mail icon-whatsapp" href="#"></a></li>
+                        <li><a class="list-mail icon-telegram" href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__item">
+                    <a href="#" class="header__item-logo">
+                        <img src="images/logo.png" width="80px" alt="">
+                        <span>CleanHouse</span>
+                    </a>
+                </div>
+                <div class="footer__item">
+                    <ul class="menu__list">
+                        <li><a href="#main" class="minu__list-link">Главная</a></li>
+                        <li><a href="#price" class="minu__list-link">Услуги и цены</a></li>
+                        <li><a href="#work" class="minu__list-link">Наши работы</a></li>
+                        <li><a href="#video" class="minu__list-link">Видео</a></li>
+                        <li><a href="#him" class="minu__list-link">Этапы химчистки</a></li>
+                        <li><a href="#contact" class="minu__list-link">Акции и скидки</a></li>
+                        <li><a href="#instr" class="minu__list-link">Наше оборудование</a></li>
+                        <li><a href="#faq" class="minu__list-link">Вопросы</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <div class="header__item-time">
+                        <span>Время работы</span>
+                        Ежедневно <br>
+                        с 9:00 до 20:00
+                    </div>
+                </div>
+
+                <div class="footer__item">
+                    <a href="tel:+79251999999" class="footer__item-call ">
+                        +7(925)-199-99-99
+                    </a>
+                    <button class="footer__btn btn-global" type="submit">ЗАказать звонок</button>
+                    <div class="footer__item-social">
+                        <div class="footer__item-text">
+                            Мы в соц. сетях
+                        </div>
+                        <ul class="list-mail">
+                            <li><a class="list-mail icon-vk" href="#"></a></li>
+                            <li><a class="list-mail icon-whatsapp" href="#"></a></li>
+                            <li><a class="list-mail icon-telegram" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
 
 
 
